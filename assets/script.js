@@ -31,3 +31,12 @@ FlecheDroite.addEventListener("click", function () {
 
 slides.length;
 	console.log(slides.length)
+
+let bulletPoints = document.querySelector(".dots");
+let bulletPoint = '<span class="dot"></span>';
+let i = 0 
+	while (i < slides.length) {
+		bulletPoints.innerHTML += bulletPoint; 
+		i++
+	}
+
